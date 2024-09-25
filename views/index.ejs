@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="NODE/css/style.css"> -->
+    <title>Document</title>
+    <style>
+        body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(53, 213, 82);
+
+}
+.container h1{
+    text-align: center;
+}
+
+ form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+ form input{
+    width: 90%;
+    padding: 5px;
+    margin: 5px;
+ }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>login</h1>
+     <div class="formcontent">
+        <form action="/add" method="post">
+            <input type="text" name="name" placeholder="your name">
+            <input type="password"  name="password" placeholder="your password">
+            <button type="submit">enter</button>
+        </form>
+     </div>
+    </div>
+</body>
+</html>
